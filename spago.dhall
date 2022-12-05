@@ -16,14 +16,19 @@ to generate this file without the comments in this block.
   , "console"
   , "debug"
   , "effect"
+  , "enums"
   , "foldable-traversable"
   , "integers"
+  , "lists"
   , "maybe"
   , "node-buffer"
   , "node-fs"
   , "node-fs-aff"
+  , "ordered-collections"
   , "prelude"
   , "strings"
+  , "stringutils"
+  , "tuples"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
