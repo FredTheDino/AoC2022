@@ -8,6 +8,7 @@ import Day02 as D02
 import Day03 as D03
 import Day04 as D04
 import Day05 as D05
+import Day06 as D06
 import Effect (Effect)
 import Effect.Console (log)
 import Node.Encoding (Encoding(..))
@@ -30,3 +31,4 @@ main = do
   runDay 3 D03.solve (readFile "input/d03.txt") 
   runDay 4 D04.solve (readFile "input/d04.txt") 
   runDay 5 D05.solve (readFile "input/d05.txt") 
+  runDay 6 D06.solve (readFile "input/d06.txt") 
